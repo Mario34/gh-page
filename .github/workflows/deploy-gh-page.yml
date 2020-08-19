@@ -1,6 +1,6 @@
 name: Deploy GitHub Page
 on:
-  pull_request:
+  push:
     branches:
       - master
 jobs:
